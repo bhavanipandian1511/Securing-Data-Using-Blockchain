@@ -1,0 +1,45 @@
+drop database blockchain;
+create database blockchain;
+use blockchain
+
+
+
+
+
+
+create table chain1(blockname varchar(500),filename varchar(500),enc varchar(500),blockadd2 varchar(500),blockback3 varchar(500));
+create table chain2(blockname varchar(500),filename varchar(500),enc varchar(500),blockadd3 varchar(500),blockback1 varchar(500));
+create table chain3(blockname varchar(500),filename varchar(500),enc varchar(500),blockadd1 varchar(500),blockback2 varchar(500));
+
+
+desc chain1;
+desc chain2;
+desc chain3;
+
+
+create table block1(blockname varchar(500));
+create table block2(blockname varchar(500));
+create table block3(blockname varchar(500));
+create table block4(blockname varchar(500));
+create table block5(blockname varchar(500));
+create table block6(blockname varchar(500));
+create table block7(blockname varchar(500));
+create table block8(blockname varchar(500));
+create table block9(blockname varchar(500));
+create table block10(blockname varchar(500));
+create table block11(blockname varchar(500));
+create table block12(blockname varchar(500));
+create table block13(blockname varchar(500));
+create table block14(blockname varchar(500));
+create table block15(blockname varchar(500));
+create table block16(blockname varchar(500));
+create table block17(blockname varchar(500));
+create table block18(blockname varchar(500));
+create table block19(blockname varchar(500));
+create table block20(blockname varchar(500));
+create table block21(blockname varchar(500));
+create table block22(blockname varchar(500));
+create table block23(blockname varchar(500));
+create table block24(blockname varchar(500));
+
+commit;
